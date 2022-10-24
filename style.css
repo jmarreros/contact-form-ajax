@@ -1,0 +1,31 @@
+/*....codigo previo*/
+
+#frm-contact label {
+    display: block;
+}
+
+#frm-contact #lbl-terms{
+    display: inline-block;
+}
+
+#frm-contact input[type=text],
+#frm-contact input[type=email],
+#frm-contact textarea{
+    width: 100%;
+    margin-bottom: 12px;
+}
+
+#frm-contact .frm-message{
+    display: none;
+    padding:10px 15px;
+    color:white;
+    background-color:grey;
+}
+
+#frm-contact .frm-message.success{
+    background-color:green;
+}
+
+#frm-contact .frm-message.error{
+    background-color:orangered;
+}
